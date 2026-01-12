@@ -1,0 +1,100 @@
+.header{
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(87, 119, 248); */
+    border: 1px solid black;
+    display: flex;
+    position: sticky;
+    top: 0;              /* REQUIRED */
+    z-index: 1000;       /* keeps it above other content */
+    background: white;  /* prevents see-through */
+
+}
+.left{
+    height: inherit;
+    width: 20%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    height: inherit;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+/* mid part */
+.parent{
+    height: 500px;
+    width: 100%;
+    /* background-color: lime; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.left1{
+    height: 400px;
+    width: 30%;
+    border: 1px solid black;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logo1{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.middle1{
+     height: 400px;
+    width: 30%;
+    border: 1px solid black;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.right1{
+    height: 400px;
+    width: 30%;
+    border: 1px solid black;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* footer section */
+.footer{
+    background: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    ;
+}
